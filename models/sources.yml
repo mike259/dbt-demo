@@ -8,6 +8,8 @@ sources:
       - name: orders
       - name: customers
 
-  - name: stripe
+  - name: snowflake
+    database: snowflake_sample_data
+    schema: TPCDS_SF100TCL
     tables:
-      - name: payments
+      - name: customer
