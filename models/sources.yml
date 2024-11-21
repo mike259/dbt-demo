@@ -6,7 +6,7 @@ sources:
     schema: jaffle_shop  
     tables:
       - name: orders
-      - name: customers2
+      - name: customers
 
   - name: stripe
     tables:
