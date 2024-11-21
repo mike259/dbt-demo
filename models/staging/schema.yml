@@ -1,0 +1,20 @@
+version: 2
+
+models:
+    - name: stg_jaffle_shop_customers
+      description: "customer model"
+      columns:
+          - name: id
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+
+    - name: stg_jaffleshop_orders
+      description: "customer orders"
+      columns:
+          - name: id
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
