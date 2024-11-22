@@ -1,6 +1,6 @@
 Avito:
   outputs:
-    dev:
+    default:
       account: jrroeym-hp82154
       database: Analytics
       password: Supersophie12$
