@@ -1,0 +1,23 @@
+Avito:
+  outputs:
+    dev:
+      account: jrroeym-hp82154
+      database: Analytics
+      password: Supersophie12$
+      role: dbt_transformer
+      schema: DEV
+      threads: 1
+      type: snowflake
+      user: mlydon259
+      warehouse: dbt_transformer
+    prod:
+      account: jrroeym-hp82154
+      database: Analytics
+      password: Supersophie12$
+      role: dbt_transformer
+      schema: PROD
+      threads: 1
+      type: snowflake
+      user: mlydon259
+      warehouse: dbt_transformer
+  target: prod
