@@ -1,4 +1,4 @@
-Default:
+default:
   outputs:
     dev:
       account: jrroeym-hp82154
